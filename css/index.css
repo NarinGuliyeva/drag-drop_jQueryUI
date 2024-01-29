@@ -1,0 +1,30 @@
+body,* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#navbarr {
+    padding: 30px 0;
+    background-color: black;
+    color: white;
+  }
+  #sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+  }
+  #sortable li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3px 3px 3px;
+    padding: 0.4em;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+    height: 18px;
+  }
+  #sortable .sortableItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
